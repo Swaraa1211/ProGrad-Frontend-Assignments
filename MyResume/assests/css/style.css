@@ -1,0 +1,219 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px; /*  height for the resume*/
+    margin:50px; /* space from all side*/
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 35px rgb(0,0,0,0.1);
+
+}
+
+.container .left_side{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
+
+.pic .picBox{
+    position: relative;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.pic .picBox .img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.contactInfo{
+    padding-top: 40px;
+    padding-right: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul{
+    position: relative;
+
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo .title{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.education .title{
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.education ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.education li{
+    margin-bottom: 15px;
+}
+
+ .education h5{
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+ .education h4 :nth-child(2){
+    color: #fff;
+    font-weight: 600;
+}
+
+.education h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+.language .title{
+    color: white;
+    text-transform: uppercase;
+}
+
+.language ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.language li{
+    margin-bottom: 15px;
+}
+
+.language .text{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.language .percent{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(14, 229, 236);
+    display: block;
+
+}
+
+.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1d172c;
+
+}
+
+.container .right_side{
+    position: relative;
+    padding: 40px;
+    background-color: rgb(152, 243, 213);
+}
+
+.name{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.about{
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about1 .box{
+    margin-bottom: 20px;
+}
+
+.about1 .project_title h4{
+    margin-bottom: 10px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.about1 .project_title h5{
+    margin-bottom: 10px;
+}
+
+.about2 .box{
+    margin-bottom: 20px;
+}
+
+.about2 .project_title h4{
+    margin-bottom: 10px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.about2 .project_title h5{
+    margin-bottom: 10px;
+}
