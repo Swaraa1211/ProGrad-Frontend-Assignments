@@ -13,3 +13,4 @@ document.onscroll = () => {
       document.querySelector('.header').classList.remove('active');
     }
   };
+//script
