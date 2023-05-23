@@ -6,3 +6,8 @@ Portfolio ->
 A portfolio description is a section within a portfolio that provides an overview of your work, skills, and accomplishments. 
 It serves as an introduction to your portfolio, 
 giving viewers a glimpse of your expertise and the value you can bring to potential projects or clients.
+
+WeatherAPI ->
+WeatherAPI is a powerful and reliable weather data provider that offers real-time and accurate weather 
+information for various locations around the world. With WeatherAPI, you can access a wide range of weather data, 
+including current weather conditions, forecasts, historical data, and more. 

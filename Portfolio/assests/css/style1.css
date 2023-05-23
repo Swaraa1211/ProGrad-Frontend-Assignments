@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: var(--white);
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: var(--light-bg);
+  }
+   */
+
+body{
+    background-color: #222222;
+
+}
+
+.header{
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+
+}
+
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.header .navbar a{
+    color: white;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.home{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home .hello{
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.home .hello span{
+    font-size: 100px;
+}
+
+.home p{
+    color: wheat;
+    text-transform: uppercase;
+}
+
+.portfolio .heading{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .portfolio .box-container .box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .portfolio .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 3rem;
+    margin: 20px;
+  }
+  
+  .portfolio .box-container .box {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: wheat;
+  }
+  
+  .portfolio .box-container .box:hover .image img {
+    transform: scale(1.2);
+  }
+  
+  .portfolio .box-container .box .image .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    /* padding: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+  }
+  
+  .portfolio .box-container .box .image .content h2 {
+    font-size: 2rem;
+    color: black;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio .box-container .box:hover .image .content {
+    transform: translateY(0);
+  }
+
+  .about .box .heading{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+  .about .box-container .box .image {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .about .box-container .box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about .box-container {
+    margin: 40px;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+  }
+  
+  .about .box-container .box p {
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-transform: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .footer{
+    border-top: 1px solid white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer .socials ion-icon {
+    font-size: 2.5rem;
+    color: honeydew;
+    /* background-color: white; */
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+
+  .footer p{
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+  @media (max-width: 1200px) {
+    .header {
+      padding: 3rem 2rem;
+    }
+  
+    .header.active {
+      padding: 2rem;
+    }
+  
+    section {
+      padding: 3rem 2rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header .menu {
+      display: block;
+    }
+  
+    .header .navbar {
+      position: fixed;
+      top: 6rem;
+      left: 0;
+      right: 0;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform: translateX(100%);
+    }
+  
+    .header .navbar.show {
+      transform: translateX(0);
+    }
+  
+    .header .navbar a {
+      
+      margin: 0;
+      font-size: 2rem;
+      margin: 2rem 0;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  
+    .home .hello {
+      font-size: 6rem;
+    }
+  }
