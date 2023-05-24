@@ -1,9 +1,25 @@
+*{
+  margin: 0;
+  padding: 1px;
+}
+
 .carousel {
     position: relative;
   }
   
+.carousel .carousel__item button{
+  background-color: salmon;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Times New Roman', Times, serif;
+
+}
   .carousel__item {
-    height: 300px;
+    /* height: 300px; */
+    height: 89vh;
     padding: 1em;
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
