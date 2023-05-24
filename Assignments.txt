@@ -11,3 +11,8 @@ WeatherAPI ->
 WeatherAPI is a powerful and reliable weather data provider that offers real-time and accurate weather 
 information for various locations around the world. With WeatherAPI, you can access a wide range of weather data, 
 including current weather conditions, forecasts, historical data, and more. 
+
+CarouselColorPicker ->
+The "Carousel Color Picker" is a user interface component that combines a carousel or slideshow with color picker inputs. 
+It allows users to select colors for each item in the carousel and immediately see the color changes reflected in the 
+carousel.
