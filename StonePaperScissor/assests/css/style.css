@@ -1,1 +1,74 @@
 /* stylesheet */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: khaki;
+}
+
+.container{
+    background-color: rgb(223, 162, 50);
+    padding: 40px 30px;
+    width:45%;
+    position: absolute;
+    border-radius: 5px;
+
+}
+
+p{
+    font-weight: 700;
+}
+
+span{
+    font-weight: 700;
+}
+
+.score{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.symbols{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.symbols button{
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+.results{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.score, .results{
+    font-weight: 300;
+}
+
+#gameresult{
+    font-weight: 400;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+#yourchoice, #computerchoice{
+    font-weight: 300;
+    margin-bottom: 10px;
+}

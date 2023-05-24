@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="/StonePaperScissor/assests/css/style.css">
     <title>StonePaperScissor</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score">
+        <h1>RockPaperScissor</h1>
+        <br>
+        <h3>Score!</h3>
+        <br>
+        <p>
+          Computer:
+          <span id="computerscore">0</span>
+        </p>
+        <p>
+          You:
+          <span id="yourscore">0</span>
+        </p>
+      </div>
+      <div class="symbols">
+        <button onclick="check('paper')"><i class="far fa-hand-paper"></i></button>
+
+        <button onclick="check('rock')"><i class="far fa-hand-rock"></i></button>
+        
+        <button onclick="check('scissor')"><i class="far fa-hand-scissors"></i></button>
+        
+      </div>
+
+      <div class="results">
+        <p id="yourchoice"></p>
+        <p id="computerchoice"></p>
+        <p id="gameresult"></p>
+      </div>
+    </div>
+
+    <script src="/StonePaperScissor/assests/js/script.js"></script>
+  </body>
 </html>
