@@ -35,12 +35,12 @@ function check(input){
 
     switch(winprediction[input][computerchoice]){
         case 'win':
-            results.innerHTML = "You Win";
+            results.innerHTML = "YouWin";
             yourscore++;
             break;
 
         case 'lose':
-            results.innerHTML = "Computer Win"
+            results.innerHTML = "ComputerWin"
             computerscore++;
             break;
 

@@ -1,4 +1,6 @@
 /* stylesheet */
+@import url('https://fonts.cdnfonts.com/css/ink-free');
+
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +13,8 @@ body{
     justify-content: center;
     height: 100vh;
     background: khaki;
+    font-family: 'Ink Free', sans-serif;
+    font-weight: 40px;
 }
 
 .container{
@@ -33,6 +37,7 @@ span{
 .score{
     margin-bottom: 50px;
     text-align: center;
+    font-size: 25px;
 }
 
 .symbols{
@@ -49,26 +54,34 @@ span{
     cursor: pointer;
 }
 
+
 .results{
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: 25px;
+}
+
+.results p{
+    font-weight: 100px;
 }
 
 .score, .results{
-    font-weight: 300;
+    font-weight: 1000px;
 }
 
 #gameresult{
-    font-weight: 400;
+    font-weight: 100px;
     width: 100px;
     align-items: center;
     text-align: center;
 }
 
 #yourchoice, #computerchoice{
-    font-weight: 300;
+    font-weight: 100px;
     margin-bottom: 10px;
 }

@@ -16,3 +16,7 @@ CarouselColorPicker ->
 The "Carousel Color Picker" is a user interface component that combines a carousel or slideshow with color picker inputs. 
 It allows users to select colors for each item in the carousel and immediately see the color changes reflected in the 
 carousel.
+
+RockPaperScissor ->
+Creating a rock-paper-scissor game (1 vs Computer). The computer’s logic is expected to be completely randomised. 
+The user should be offered with three buttons for three inputs, respectively, and a Play button
